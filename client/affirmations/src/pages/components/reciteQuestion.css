@@ -1,0 +1,149 @@
+.reciteQuestionDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background-color: #f9fafb;
+  font-family: "Inter", sans-serif;
+  color: #222;
+}
+
+.questionHeader {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.questionHeader h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.highlight {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.questionText {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.inputSection {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.affirmationTextbox {
+  width: 100%;
+  resize: vertical;
+  min-height: 120px;
+  max-height: 400px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #fff;
+  transition: border-color 0.2s ease;
+}
+
+.affirmationTextbox:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.submitButton,
+.retryButton,
+.nextButton {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.1s ease;
+}
+
+.submitButton {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #2563eb;
+}
+
+.retryButton {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.retryButton:hover {
+  background-color: #d97706;
+}
+
+.nextButton {
+  background-color: #10b981;
+  color: white;
+}
+
+.nextButton:hover {
+  background-color: #059669;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.resultSection {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.result {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.correct {
+  color: #10b981;
+}
+
+.incorrect {
+  color: #ef4444;
+}
+
+.correctAnswer {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.yourAnswer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.yourAnswerDiv {
+    margin-top: 8px;
+    width: 80%;
+    background-color: aqua;
+   padding: 10px;
+   white-space: pre-wrap;  /* ✅ ensures wrapping even with long lines */
+  word-wrap: break-word;  /* ✅ break long words if needed */
+  overflow-wrap: break-word;
+}

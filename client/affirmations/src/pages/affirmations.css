@@ -1,0 +1,46 @@
+.topDiv {
+    width: 100%;
+  
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.affirmatioInput {
+    padding: 8px;
+    border-radius: 25px;
+    margin-top: 24px;
+    height: 30px;
+    width: 90%;
+}
+
+textarea {
+  transition: height 0.15s ease;
+}
+
+
+.gridItem {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.affirmationEditOptions {
+    display: flex;
+}
+
+.option {
+    margin-left: 4px;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 4px;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.saveButton {
+    width: 30px;
+}

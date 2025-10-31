@@ -1,0 +1,3 @@
+{"affirmationNumer":0,"affiramtion":"herre"}
+{"affirmationNumer":1,"affiramtion":"herre2"}
+{"affirmationNumer":2,"affiramtion":"herre3"}

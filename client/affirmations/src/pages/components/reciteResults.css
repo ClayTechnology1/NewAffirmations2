@@ -1,0 +1,82 @@
+.resultsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  font-family: "Inter", sans-serif;
+  color: #222;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+.resultsTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+.resultsList {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.resultItem {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.correctItem {
+  border-left: 5px solid #10b981;
+}
+
+.wrongItem {
+  border-left: 5px solid #ef4444;
+}
+
+.resultHeader {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.status {
+  font-size: 1.1rem;
+}
+
+.resultContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.userAnswer .label,
+.correctAnswerSection .label {
+  font-weight: 500;
+  color: #444;
+}
+
+.answerText {
+  color: #111;
+}
+
+.correctAnswerSection {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.correctAnswerBox {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 6px 10px;
+  background-color: #f3f4f6;
+  color: #111;
+  font-size: 0.95rem;
+}
